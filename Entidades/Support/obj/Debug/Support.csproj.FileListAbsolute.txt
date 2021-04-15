@@ -1,0 +1,6 @@
+C:\Users\NR_E90863\source\repos\Entidades\Support\bin\Debug\Support.dll
+C:\Users\NR_E90863\source\repos\Entidades\Support\bin\Debug\Support.pdb
+C:\Users\NR_E90863\source\repos\Entidades\Support\obj\Debug\Support.csprojAssemblyReference.cache
+C:\Users\NR_E90863\source\repos\Entidades\Support\obj\Debug\Support.csproj.CoreCompileInputs.cache
+C:\Users\NR_E90863\source\repos\Entidades\Support\obj\Debug\Support.dll
+C:\Users\NR_E90863\source\repos\Entidades\Support\obj\Debug\Support.pdb
