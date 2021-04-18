@@ -8,16 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
-using Support;
+
 
 namespace MiCalculadora
 {
     public partial class FormCalculadora : Form
     {
-        Numero numeroUno;
-        Numero numeroDos;
-        string operador;
-        double resultado = 0;
 
 
         public FormCalculadora()
@@ -35,20 +31,13 @@ namespace MiCalculadora
         }
 
         /// <summary>
-        /// Metodo privado que actualiza el label de resultados, los campos numericos, y agrega los operadores como item.
+        /// Metodo privado que actualiza el label de resultados, los campos numericos.
         /// </summary>
         private void Limpiar()
         {
             this.lblResultado.Text ="0";
             this.txtNumero1.Text = "0";
             this.txtNumero2.Text = "0";
-
-            cmbOperador.Items.Clear();
-            cmbOperador.Items.Add("+");
-            cmbOperador.Items.Add("-");
-            cmbOperador.Items.Add("*");
-            cmbOperador.Items.Add("/");
-
         }
 
         /// <summary>
@@ -58,61 +47,83 @@ namespace MiCalculadora
         /// <param name="e"></param>
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            string inputTxtUno = txtNumero1.Text;
-            string inputTxtDos = txtNumero2.Text;
+            string numeroUno = txtNumero1.Text.Replace('.', ',');
+            string numeroDos = txtNumero2.Text.Replace('.', ',');
+            string operador = cmbOperador.Text;
+            double resultado = Operar(numeroUno, numeroDos, operador);
 
-            if (Verificaciones.EsUnValorValido(inputTxtUno) && Verificaciones.EsUnValorValido(inputTxtDos))
+            if (operador.Equals("/") && resultado.Equals(Double.MinValue))
             {
-                numeroUno = new Numero(txtNumero1.Text);
-                numeroDos = new Numero(txtNumero2.Text);
-                operador = cmbOperador.Text;
-                resultado = Calculadora.Operar(numeroUno, numeroDos, operador);
-                if (operador.Equals("/") && resultado.Equals(Double.MinValue))
-                {
-                    MessageBox.Show("No se puede dividir por cero.");
-                }
-                else
-                {
-                    lblResultado.Text = Math.Round(resultado, 2).ToString();
-                }
+                MessageBox.Show("No se puede dividir por cero.");
             }
             else
             {
-                MessageBox.Show("Verifique los valores ingresados.");
+                lblResultado.Text = resultado.ToString();
+                btnConvertirABinario.Enabled = true;
+                btnConvertirADecimal.Enabled = false;
+                if (!lblResultado.Visible)
+                {
+                    lblResultado.Visible = true;
+                }
             }
 
-            }
+        }
 
-            private static double Operar(string numero1, string numero2, string operador)
-            {
-                Numero n1 = new Numero(numero1);
-                Numero n2 = new Numero(numero2);
 
-                double resultado = Calculadora.Operar(n1, n2, operador);
+        /// <summary>
+        /// Recibe dos numeros en formato string y realiza las operaciones
+        /// relacionadas al operador para devolver un resultado producto de la operación
+        /// </summary>
+        /// <param name="numero1"></param>
+        /// <param name="numero2"></param>
+        /// <param name="operador"></param>
+        /// <returns></returns>
+        private static double Operar(string numero1, string numero2, string operador)
+        {
+            Numero numeroUno = new Numero(numero1);
+            Numero numeroDos = new Numero(numero2);
+            double resultado = Calculadora.Operar(numeroUno, numeroDos, operador);
+            return resultado;
+        }
 
-                return resultado;
-            }
 
-            private void btnCerrar_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Metodo para cerrar wl formulario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnCerrar_Click(object sender, EventArgs e)
             {
                 this.Close();
             }
 
-            private void btnConvertirADecimal_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Convierte el valor binario a decimal.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnConvertirADecimal_Click(object sender, EventArgs e)
             {
-                if (this.lblResultado.Text != "Resultado" && this.lblResultado.Text != "Valor invalido")
-                {
-                    this.lblResultado.Text = Numero.BinarioDecimal(this.lblResultado.Text);
-                }
-            }
+            Numero numero = new Numero();
+            string resultado = numero.BinarioDecimal(lblResultado.Text);
+            lblResultado.Text = resultado;
+            btnConvertirABinario.Enabled = true;
+            btnConvertirADecimal.Enabled = false;
+             }
 
-            private void btnConvertirABinario_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Convierte el resultado de la operacion en binario.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btnConvertirABinario_Click(object sender, EventArgs e)
             {
-                if (this.lblResultado.Text != "Resultado")
-                {
-                    this.lblResultado.Text = Numero.DecimalBinario(this.lblResultado.Text);
-                }
-            }
+            Numero numero = new Numero();
+            string resultado = numero.DecimalBinario(lblResultado.Text);
+            lblResultado.Text = resultado;
+            btnConvertirABinario.Enabled = false;
+            btnConvertirADecimal.Enabled = true;
+        }
 
 
         }

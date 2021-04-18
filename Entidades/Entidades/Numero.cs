@@ -45,7 +45,7 @@ namespace Entidades
         {
             set
             {
-                this.numero = ValidarNumero(value);
+                this.numero = this.ValidarNumero(value);
             }
         }
 
@@ -127,7 +127,7 @@ namespace Entidades
         /// </summary>
         /// <param name="binario">parametro recibido en formato string</param>
         /// <returns>numero decimal en formato string</returns>
-        public static string BinarioDecimal(string binario)
+        public  string BinarioDecimal(string binario)
         {
             string resultado = "Valor invalido";
             double acumulador = 0;
@@ -156,7 +156,7 @@ namespace Entidades
         /// </summary>
         /// <param name="numero">string con el valor a convertir</param>
         /// <returns>string con el número binario convertido o un string con el error</returns>
-        public static string DecimalBinario(string numero)
+        public  string DecimalBinario(string numero)
         {
             string resultado = "Valor invalido";
             double auxNumeroIngresado;
@@ -173,7 +173,7 @@ namespace Entidades
         /// </summary>
         /// <param name="numero">numero a convertir en binario</param>
         /// <returns>retorno con el string convertido en binario</returns>
-        public static string DecimalBinario(double numero)
+        public  string DecimalBinario(double numero)
         {
             string resultado = "";
             int numeroEntero = (int)numero;
@@ -212,7 +212,7 @@ namespace Entidades
         /// </summary>
         /// <param name="binario"></param>
         /// <returns> retorna true si es binario y false si no es binario</returns>
-        private static bool EsBinario(string binario)
+        private  bool EsBinario(string binario)
         {
             bool output = true;
             char[] array = binario.ToCharArray();

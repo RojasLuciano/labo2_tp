@@ -1,4 +1,3 @@
-C:\Users\NR_E90863\source\repos\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
 C:\Users\NR_E90863\source\repos\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\NR_E90863\source\repos\Entidades\Entidades\bin\Debug\Entidades.dll
 C:\Users\NR_E90863\source\repos\Entidades\Entidades\bin\Debug\Entidades.pdb
