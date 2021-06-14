@@ -12,3 +12,17 @@ C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.csp
 C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.csproj.CopyComplete
 C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.exe
 C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Consola.exe.config
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Consola.exe
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Consola.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Entidades.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Files.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Maquinery.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Entidades.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Files.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\bin\Debug\Maquinery.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.exe
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\TP-03\FabricaDePiezasDeAuto\Consola\obj\Debug\Consola.pdb

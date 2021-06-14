@@ -231,7 +231,7 @@ namespace UI
 
                 string fileName = string.Empty;
                 DateTime fileCreationDatetime = DateTime.Now;
-                fileName = string.Format("Report{0}.pdf", fileCreationDatetime.ToString(@"ddMMyyyy") + "_" + fileCreationDatetime.ToString(@"HHmm"));
+                fileName = string.Format("Report{0}", fileCreationDatetime.ToString(@"ddMMyyyy") + "_" + fileCreationDatetime.ToString(@"HHmm"));
 
                 FileStream fs = new FileStream(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + fileName + ".pdf", FileMode.Create);
                 Document doc = new Document(iTextSharp.text.PageSize.LETTER, 10, 10, 10, 10);
@@ -312,7 +312,9 @@ namespace UI
                 doc.Add(text);
                 doc.Add(tablePieces);
                 doc.Close();
-            
+
+                MessageBox.Show(string.Format("Se genero el reporte en {0}",fs.Name), "Advertencia.");
+
         }
     }
 }

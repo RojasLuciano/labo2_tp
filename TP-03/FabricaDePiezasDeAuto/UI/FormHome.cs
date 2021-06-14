@@ -1,4 +1,5 @@
-﻿using Files;
+﻿using Entidades;
+using Files;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,9 +23,18 @@ namespace UI
             public FormHome()
             {
                 InitializeComponent();
-
-
+                CreacionAutomaticaDeMateriales();
             }
+
+        private void CreacionAutomaticaDeMateriales() 
+        {
+            // Creacion de materiales.
+            Materiales listaMateriales = new Materiales();
+            listaMateriales.Items.Add(new Material(Tipo.Acero, 50, 50, 50, 7850));
+            listaMateriales.Items.Add(new Material(Tipo.Aluminio, 50, 50, 50, 2700));
+            //Serializo la lista de materiales.
+            Serializer.SerializeToFile<Materiales>(listaMateriales, "listMaterials.xml");
+        }
 
             private void FormHome_Load(object sender, EventArgs e)
             {
@@ -40,10 +50,6 @@ namespace UI
 
         private void btnCargarListas_Click(object sender, EventArgs e)
         {
-
-
-     
-
             try
             {
                 OpenFileDialog openFileDialog = new OpenFileDialog();
