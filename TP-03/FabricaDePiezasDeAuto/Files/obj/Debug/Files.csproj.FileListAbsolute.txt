@@ -1,0 +1,9 @@
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\bin\Debug\Files.dll
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\bin\Debug\Files.pdb
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\bin\Debug\Entidades.dll
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\bin\Debug\Entidades.pdb
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\obj\Debug\Files.csprojAssemblyReference.cache
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\obj\Debug\Files.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\obj\Debug\Files.csproj.CopyComplete
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\obj\Debug\Files.dll
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Files\obj\Debug\Files.pdb

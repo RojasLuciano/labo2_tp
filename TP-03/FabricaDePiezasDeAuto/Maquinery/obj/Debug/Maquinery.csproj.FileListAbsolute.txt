@@ -1,0 +1,9 @@
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\bin\Debug\Maquinery.dll
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\bin\Debug\Maquinery.pdb
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\bin\Debug\Entidades.dll
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\bin\Debug\Entidades.pdb
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\obj\Debug\Maquinery.csprojAssemblyReference.cache
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\obj\Debug\Maquinery.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\obj\Debug\Maquinery.csproj.CopyComplete
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\obj\Debug\Maquinery.dll
+C:\Users\Felipe\source\repos\FabricaDePiezasDeAuto\Maquinery\obj\Debug\Maquinery.pdb
