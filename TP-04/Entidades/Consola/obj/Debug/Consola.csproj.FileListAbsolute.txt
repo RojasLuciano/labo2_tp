@@ -1,0 +1,13 @@
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Consola.exe.config
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Consola.exe
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Consola.pdb
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Entidades.dll
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\itextsharp.dll
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Entidades.pdb
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\itextsharp.xml
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.exe
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.pdb
