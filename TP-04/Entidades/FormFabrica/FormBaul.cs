@@ -21,6 +21,7 @@ namespace FormFabrica
         public FormBaul()
         {
             InitializeComponent();
+          
             lblTexto.Text = "Ingrese la capacidad del baul." +
               "Ej: 407 litros";
         }

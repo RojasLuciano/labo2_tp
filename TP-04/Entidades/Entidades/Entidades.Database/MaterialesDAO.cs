@@ -64,7 +64,7 @@ namespace Entidades.Entidades.Database
                     catch (Exception ex)
                     {
                         logger.saveReport(ex);
-                        throw ex;
+                        throw new Exception();
                         
                     }
                     finally
@@ -102,9 +102,10 @@ namespace Entidades.Entidades.Database
                 command.Parameters.AddWithValue("@tipoDeMaterial", item.TipoDeMaterial.ToString());
 
                 connection.Open();
-                command.ExecuteNonQuery();
+                int rowsAffected = command.ExecuteNonQuery();
 
-                retorno = true;
+                if (rowsAffected >= 1)
+                    retorno = true;
             }
             catch (Exception ex)
             {
@@ -122,6 +123,90 @@ namespace Entidades.Entidades.Database
             return retorno;
         }
 
+        public bool ClearTable()
+        {
+            bool retorno = false;
+            try
+            {
+                command = new SqlCommand();
+                connection = new SqlConnection(connectionString);
+                command.Connection = connection;
+                command.CommandType = CommandType.Text;
+
+                command.CommandText = "DROP TABLE Materiales";
+
+                connection.Open();
+                int rowsAffected = command.ExecuteNonQuery();
+
+                if (rowsAffected <0)
+                    retorno = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception();
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+            return retorno;
+        }
+
+
+        public bool CleateTable()
+        {
+            bool retorno = false;
+            try
+            {
+                command = new SqlCommand();
+                connection = new SqlConnection(connectionString);
+                command.Connection = connection;
+                command.CommandType = CommandType.Text;
+
+                command.CommandText = @"CREATE TABLE Materiales
+   (
+      ID int IDENTITY(1,1) PRIMARY KEY,
+      largo float(53) NOT NULL,
+	  ancho float(53) NOT NULL,
+	  alto float(53) NOT NULL,
+	  densidad float(53) NOT NULL, 
+      tipoDeMaterial varchar(MAX) NOT NULL
+   )";
+
+                connection.Open();
+                int rowsAffected = command.ExecuteNonQuery();
+
+                if (rowsAffected < 0)
+                    retorno = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception();
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+            return retorno;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
         /// <summary>
         /// Metodo encargado de eliminar un material segun si ID
         /// </summary>
@@ -130,6 +215,7 @@ namespace Entidades.Entidades.Database
         public override bool Delete(string input)
         {
             bool retorno = false;
+            
             try
             {
                 command = new SqlCommand();
@@ -141,13 +227,14 @@ namespace Entidades.Entidades.Database
                 command.Parameters.AddWithValue("@ID", int.Parse(input));
 
                 connection.Open();
-                command.ExecuteNonQuery();
+                int rowsAffected = command.ExecuteNonQuery();
 
-                retorno = true;
+                if (rowsAffected >= 1)
+                        retorno = true;
             }
             catch (Exception ex)
             {
-                throw new Exception();
+                throw new FileException("Hubo un error con la base de datos",ex);
             }
             finally
             {

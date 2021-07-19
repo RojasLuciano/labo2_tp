@@ -61,8 +61,6 @@ namespace FormFabrica
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.cmbMateriales = new System.Windows.Forms.ComboBox();
             this.btnMaterial = new System.Windows.Forms.Button();
             this.panel16 = new System.Windows.Forms.Panel();
@@ -72,6 +70,8 @@ namespace FormFabrica
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.pnlBarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -79,13 +79,13 @@ namespace FormFabrica
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.pnlIzquierdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel16.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblMedidas
@@ -93,7 +93,7 @@ namespace FormFabrica
             this.lblMedidas.AutoSize = true;
             this.lblMedidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMedidas.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblMedidas.Location = new System.Drawing.Point(220, 110);
+            this.lblMedidas.Location = new System.Drawing.Point(216, 123);
             this.lblMedidas.Name = "lblMedidas";
             this.lblMedidas.Size = new System.Drawing.Size(58, 13);
             this.lblMedidas.TabIndex = 45;
@@ -113,6 +113,7 @@ namespace FormFabrica
             // tbLargo
             // 
             this.tbLargo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.tbLargo.ForeColor = System.Drawing.SystemColors.Window;
             this.tbLargo.Location = new System.Drawing.Point(61, 18);
             this.tbLargo.Name = "tbLargo";
             this.tbLargo.Size = new System.Drawing.Size(55, 20);
@@ -144,6 +145,7 @@ namespace FormFabrica
             // tbAltura
             // 
             this.tbAltura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
+            this.tbAltura.ForeColor = System.Drawing.SystemColors.Window;
             this.tbAltura.Location = new System.Drawing.Point(61, 8);
             this.tbAltura.Name = "tbAltura";
             this.tbAltura.Size = new System.Drawing.Size(55, 20);
@@ -166,7 +168,7 @@ namespace FormFabrica
             this.lblTexto.AutoSize = true;
             this.lblTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.lblTexto.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblTexto.Location = new System.Drawing.Point(220, 249);
+            this.lblTexto.Location = new System.Drawing.Point(216, 262);
             this.lblTexto.Name = "lblTexto";
             this.lblTexto.Size = new System.Drawing.Size(52, 13);
             this.lblTexto.TabIndex = 49;
@@ -190,7 +192,7 @@ namespace FormFabrica
             this.pnlBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlBarraTitulo.Location = new System.Drawing.Point(0, 0);
             this.pnlBarraTitulo.Name = "pnlBarraTitulo";
-            this.pnlBarraTitulo.Size = new System.Drawing.Size(481, 35);
+            this.pnlBarraTitulo.Size = new System.Drawing.Size(563, 35);
             this.pnlBarraTitulo.TabIndex = 52;
             // 
             // btnRestaurar
@@ -198,7 +200,7 @@ namespace FormFabrica
             this.btnRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
-            this.btnRestaurar.Location = new System.Drawing.Point(413, 3);
+            this.btnRestaurar.Location = new System.Drawing.Point(495, 3);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(25, 25);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -212,7 +214,7 @@ namespace FormFabrica
             this.btnMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(382, 3);
+            this.btnMinimizar.Location = new System.Drawing.Point(464, 3);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -225,7 +227,7 @@ namespace FormFabrica
             this.btnMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
-            this.btnMaximizar.Location = new System.Drawing.Point(413, 3);
+            this.btnMaximizar.Location = new System.Drawing.Point(495, 3);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(25, 25);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -238,7 +240,7 @@ namespace FormFabrica
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
-            this.btnCerrar.Location = new System.Drawing.Point(444, 3);
+            this.btnCerrar.Location = new System.Drawing.Point(526, 3);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(25, 25);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -268,7 +270,7 @@ namespace FormFabrica
             this.pnlIzquierdo.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlIzquierdo.Location = new System.Drawing.Point(0, 35);
             this.pnlIzquierdo.Name = "pnlIzquierdo";
-            this.pnlIzquierdo.Size = new System.Drawing.Size(0, 442);
+            this.pnlIzquierdo.Size = new System.Drawing.Size(0, 440);
             this.pnlIzquierdo.TabIndex = 53;
             // 
             // cmbTipoDeAutoParte
@@ -476,26 +478,6 @@ namespace FormFabrica
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.panel8.Controls.Add(this.pictureBox2);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel8.Location = new System.Drawing.Point(0, 35);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(210, 442);
-            this.panel8.TabIndex = 54;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(204, 138);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // cmbMateriales
             // 
             this.cmbMateriales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
@@ -510,7 +492,7 @@ namespace FormFabrica
             "Carroceria",
             "Capot",
             "Baul"});
-            this.cmbMateriales.Location = new System.Drawing.Point(274, 69);
+            this.cmbMateriales.Location = new System.Drawing.Point(270, 82);
             this.cmbMateriales.Name = "cmbMateriales";
             this.cmbMateriales.Size = new System.Drawing.Size(129, 21);
             this.cmbMateriales.TabIndex = 48;
@@ -525,7 +507,7 @@ namespace FormFabrica
             this.btnMaterial.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnMaterial.Image = ((System.Drawing.Image)(resources.GetObject("btnMaterial.Image")));
             this.btnMaterial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMaterial.Location = new System.Drawing.Point(215, 41);
+            this.btnMaterial.Location = new System.Drawing.Point(211, 54);
             this.btnMaterial.Name = "btnMaterial";
             this.btnMaterial.Size = new System.Drawing.Size(188, 49);
             this.btnMaterial.TabIndex = 50;
@@ -540,7 +522,7 @@ namespace FormFabrica
             this.panel16.Controls.Add(this.label1);
             this.panel16.Controls.Add(this.tbAltura);
             this.panel16.Controls.Add(this.label6);
-            this.panel16.Location = new System.Drawing.Point(221, 131);
+            this.panel16.Location = new System.Drawing.Point(217, 144);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(182, 97);
             this.panel16.TabIndex = 55;
@@ -559,7 +541,7 @@ namespace FormFabrica
             // 
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel18.Controls.Add(this.txbDescripcion);
-            this.panel18.Location = new System.Drawing.Point(223, 275);
+            this.panel18.Location = new System.Drawing.Point(219, 288);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(182, 97);
             this.panel18.TabIndex = 56;
@@ -585,7 +567,7 @@ namespace FormFabrica
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel9.Controls.Add(this.btn_Aceptar);
-            this.panel9.Location = new System.Drawing.Point(223, 390);
+            this.panel9.Location = new System.Drawing.Point(219, 403);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(91, 44);
             this.panel9.TabIndex = 58;
@@ -594,7 +576,7 @@ namespace FormFabrica
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Controls.Add(this.btnCancelar);
-            this.panel10.Location = new System.Drawing.Point(320, 390);
+            this.panel10.Location = new System.Drawing.Point(316, 403);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(91, 44);
             this.panel10.TabIndex = 59;
@@ -616,12 +598,31 @@ namespace FormFabrica
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1, 5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(204, 138);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.panel8.Controls.Add(this.pictureBox2);
+            this.panel8.Location = new System.Drawing.Point(2, 38);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(203, 444);
+            this.panel8.TabIndex = 54;
+            // 
             // FormAutoParte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(66)))), ((int)(((byte)(82)))));
-            this.ClientSize = new System.Drawing.Size(400, 400);
+            this.ClientSize = new System.Drawing.Size(563, 475);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.cmbMateriales);
@@ -645,8 +646,6 @@ namespace FormFabrica
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             this.pnlIzquierdo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
             this.panel17.ResumeLayout(false);
@@ -655,6 +654,8 @@ namespace FormFabrica
             this.panel18.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel8.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -692,10 +693,8 @@ namespace FormFabrica
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel8;
         protected System.Windows.Forms.ComboBox cmbMateriales;
         private System.Windows.Forms.Button btnMaterial;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Panel panel18;
@@ -703,5 +702,7 @@ namespace FormFabrica
         protected System.Windows.Forms.Button btn_Aceptar;
         private System.Windows.Forms.Panel panel10;
         protected System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel8;
     }
 }

@@ -15,8 +15,8 @@ namespace Entidades
 {
     public class Fabrica
     {
-        MaterialesDAO dao = new MaterialesDAO();
-        AutoPartesDAO dao2 = new AutoPartesDAO();
+        MaterialesDAO materialesDAO;
+        AutoPartesDAO autopartesDAO;
 
         private List<AutoParte> autoPartes;
         private List<Material> materiales;
@@ -30,6 +30,8 @@ namespace Entidades
         {
             autoPartes = new List<AutoParte>();
             materiales = new List<Material>();
+            materialesDAO = new MaterialesDAO();
+            autopartesDAO = new AutoPartesDAO();
         }
 
         /// <summary>
@@ -131,9 +133,7 @@ namespace Entidades
 
             foreach (AutoParte item in this.AutoPartes)
             {
-
-                sb.AppendLine(item.ToString()); //GetLast
-                
+                sb.AppendLine(item.ToString()); 
             }
             return sb.ToString();
         }
@@ -231,6 +231,10 @@ namespace Entidades
                     fabrica.AutoPartes.Remove(autoParte);
                     output = true;
                 }
+                else
+                {
+                    throw new AutoPartesException();
+                }
             }
             catch (Exception ex)
             {
@@ -246,25 +250,14 @@ namespace Entidades
         /// <returns></returns>
         public Material DoyMaterial(ETipoDeMaterial tipo)
         {
-            bool flag = false;
-            try
-            {
                 foreach (Material item in materiales)
                 {
                     if (item.TipoDeMaterial.Equals(tipo))
                     {
-                        flag = true;
                         return item;
+                        
                     }
                 }
-
-                if(flag==false)
-                    throw new ArgumentException();
-            }
-            catch (Exception e)
-            {
-                throw new Exception("No hay material de ese tipo.", e);
-            }
             return default;
         }
 
@@ -306,7 +299,7 @@ namespace Entidades
         public bool MaterialSuficiente(AutoParte parte)
         {
             bool output = false;
-            if (HayMaterialSuficiente(this.DoyMaterial(parte.TipoDeMaterial), parte.Alto, parte.Alto))
+            if (HayMaterialSuficiente(this.DoyMaterial(parte.TipoDeMaterial), parte.Alto, parte.Largo))
             {
                 parte.Peso = pesoAutoParte;
                 output = true;
@@ -319,7 +312,7 @@ namespace Entidades
         /// </summary>
         public void GetMaterialsFromDB() 
         {
-            Materiales = dao.GetAll();
+            Materiales = materialesDAO.GetAll();
         }
 
         /// <summary>
@@ -327,29 +320,34 @@ namespace Entidades
         /// </summary>
         public void GetAutoPartesFromDB()
         {
-            AutoPartes = dao2.GetAll();
+            AutoPartes = autopartesDAO.GetAll();
         }
 
         /// <summary>
         /// Metodo para exportar las autopartes hacia la DB.
         /// </summary>
-        public void ExportAutoPartsToDB() 
+        public bool ExportAutoPartsToDB() 
         {
+            bool output = false;
+
             foreach (AutoParte item in AutoPartes)
             {
-                dao2.Update(item);
+                output = autopartesDAO.Update(item);
             }
+            return output;
         }
 
         /// <summary>
         /// Metodo para exportar la lista de materiales hacia la DB
         /// </summary>
-        public void ExportMaterialsToDB()
+        public bool ExportMaterialsToDB()
         {
+            bool output = false;
             foreach (Material item in Materiales)
             {
-                dao.Update(item);
+                output = materialesDAO.Update(item);
             }
+            return output;
         }
 
 
@@ -362,13 +360,52 @@ namespace Entidades
         {
             try
             {
-                return dao2.Delete(nroDeSerie);
+                return autopartesDAO.Delete(nroDeSerie);
             }
             catch (Exception ex)
             {
                 throw new FileException("No se pudo eliminar de la base.", ex);
             }
         }
+
+        /// <summary>
+        /// Metodo para eliminar la tabla, utilizada para los test.
+        /// </summary>
+        /// <returns></returns>
+        public bool DropTableAutoParts()
+        {
+          return autopartesDAO.ClearTable();
+        }
+
+        /// <summary>
+        /// Metodo para crear la tabla, utilizada para los test.
+        /// </summary>
+        /// <returns></returns>
+        public bool CreateTableAutoParts()
+        {
+            return autopartesDAO.CleateTable();
+        }
+
+        /// <summary>
+        /// Metodo para eliminar la tabla, utilizada para los test.
+        /// </summary>
+        /// <returns></returns>
+        public bool DropTableMateriales()
+        {
+            return materialesDAO.ClearTable();
+        }
+
+        /// <summary>
+        /// Metodo para crear la tabla, utilizada para los test.
+        /// </summary>
+        /// <returns></returns>
+        public bool CreateTableMateriales()
+        {
+            return materialesDAO.CleateTable();
+        }
+
+
+
 
 
         /// <summary>
@@ -444,6 +481,8 @@ namespace Entidades
             }
             return fs.Name;
         }
+
+        #region Creacion de tabla para el pdf.
 
         /// <summary>
         /// Metodo para crear una tabla para los materiales.
@@ -606,5 +645,7 @@ namespace Entidades
 
             return tablaAutoPartes;
         }
+
+        #endregion pdf
     }
 }

@@ -29,10 +29,34 @@ namespace FormFabrica
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // cmbMateriales
+            // 
+            this.cmbMateriales.DataSource = new Entidades.ETipoDeMaterial[] {
+        Entidades.ETipoDeMaterial.Acero,
+        Entidades.ETipoDeMaterial.Aluminio};
+            // 
+            // btn_Aceptar
+            // 
+            this.btn_Aceptar.FlatAppearance.BorderSize = 0;
+            this.btn_Aceptar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.FlatAppearance.BorderSize = 0;
+            this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            // 
+            // FormChasis
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(563, 475);
+            this.Name = "FormChasis";
             this.Text = "FormChasis";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

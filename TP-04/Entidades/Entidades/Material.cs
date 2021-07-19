@@ -23,20 +23,12 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Constructor con parametros.
+        /// Propiedad de lectura y escritura de la variable tipoDeMaterial
         /// </summary>
-        /// <param name="tipoDeMaterial"></param>
-        /// <param name="alto"></param>
-        /// <param name="largo"></param>
-        /// <param name="ancho"></param>
-        /// <param name="densidad"></param>
-        public Material(ETipoDeMaterial tipoDeMaterial, double alto, double largo, double ancho, double densidad)
+        public ETipoDeMaterial TipoDeMaterial
         {
-            this.TipoDeMaterial = tipoDeMaterial;
-            this.Largo = largo;
-            this.Ancho = ancho;
-            this.Alto = alto;
-            this.Densidad = densidad;
+            get => tipoDeMaterial;
+            set => tipoDeMaterial = value;
         }
 
         /// <summary>
@@ -76,13 +68,22 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Propiedad de lectura y escritura de la variable tipoDeMaterial
+        /// Constructor con parametros.
         /// </summary>
-        public ETipoDeMaterial TipoDeMaterial
+        /// <param name="tipoDeMaterial"></param>
+        /// <param name="alto"></param>
+        /// <param name="largo"></param>
+        /// <param name="ancho"></param>
+        /// <param name="densidad"></param>
+        public Material(ETipoDeMaterial tipoDeMaterial, double alto, double largo, double ancho, double densidad)
         {
-            get => tipoDeMaterial;
-            set => tipoDeMaterial = value;
+            this.TipoDeMaterial = tipoDeMaterial;
+            this.Largo = largo;
+            this.Ancho = ancho;
+            this.Alto = alto;
+            this.Densidad = densidad;
         }
+
 
         /// <summary>
         /// Metodo para informar el material.

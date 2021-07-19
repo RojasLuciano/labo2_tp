@@ -15,7 +15,7 @@ namespace Entidades.Entidades.Database
         protected string connectionString;
         public DataBase_()
         {
-            this.connectionString = string.Format("Server = .; Database = FabricaAutoPartes; Trusted_Connection=True;"); 
+            this.connectionString = string.Format($"Server = .; Database = FabricaAutoPartes; Trusted_Connection=True;"); 
         }
         public abstract bool Delete(string input);
         public abstract List<T> GetAll();

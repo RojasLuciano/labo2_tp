@@ -44,9 +44,10 @@ namespace Entidades.Entidades.Database
                 command.Parameters.AddWithValue("@numeroDeSerie", input);
 
                 connection.Open();
-                command.ExecuteNonQuery();
+                int rowsAffected = command.ExecuteNonQuery();
 
-                retorno = true;
+                if (rowsAffected >= 1)
+                    retorno = true;
             }
             catch (Exception ex)
             {
@@ -62,6 +63,84 @@ namespace Entidades.Entidades.Database
 
             return retorno;
         }
+
+
+        public  bool ClearTable()
+        {
+            bool retorno = false;
+            try
+            {
+                command = new SqlCommand();
+                connection = new SqlConnection(connectionString);
+                command.Connection = connection;
+                command.CommandType = CommandType.Text;
+
+                command.CommandText = "DROP TABLE AutoPartes";
+
+                connection.Open();
+                int rowsAffected = command.ExecuteNonQuery();
+
+                if (rowsAffected < 0)
+                    retorno = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception();
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+            return retorno;
+        }
+
+        public bool CleateTable()
+        {
+            bool retorno = false;
+            try
+            {
+                command = new SqlCommand();
+                connection = new SqlConnection(connectionString);
+                command.Connection = connection;
+                command.CommandType = CommandType.Text;
+
+                command.CommandText = @"CREATE TABLE AutoPartes
+   (
+      ID int IDENTITY(1,1) PRIMARY KEY,
+	  ID_material int NOT NULL,
+	  numeroDeSerie varchar(MAX) NOT NULL,
+	  tipo varchar(MAX) NOT NULL,
+      largo float(53) NOT NULL,
+	  alto float(53) NOT NULL,
+	  peso float(53) NOT NULL,
+	  estaDefectuosa bit  NOT NULL,
+	  descripcion varchar(MAX) NOT NULL,
+      tipoDeMaterial varchar(MAX) NOT NULL
+   )";
+
+                connection.Open();
+                int rowsAffected = command.ExecuteNonQuery();
+
+                if (rowsAffected < 0)
+                    retorno = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception();
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+            return retorno;
+        }
+
 
         /// <summary>
         /// Metodo que obtiene una lista de autopartes desde la base de datos.
@@ -191,9 +270,10 @@ namespace Entidades.Entidades.Database
                 }
 
                 connection.Open();
-                command.ExecuteNonQuery();
+                int rowsAffected = command.ExecuteNonQuery();
 
-                output = true;
+                if (rowsAffected >= 1)
+                    output = true;
             }
             catch (Exception ex)
             {

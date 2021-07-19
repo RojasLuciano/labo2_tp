@@ -27,18 +27,32 @@ namespace Entidades
         protected bool estaDefectuosa;
 
         /// <summary>
-        /// Propiedad de lectura y escritura para la variable estaDefectuosa
+        /// Propiedad de lectura para obtener el nombre de la clase.
         /// </summary>
-        public bool EstaDefectuoso
+        public string Tipo
         {
             get
             {
-                return this.estaDefectuosa;
+                return this.GetType().Name;
             }
-            set
-            {
-                this.estaDefectuosa = value;
-            }
+        }
+
+        /// <summary>
+        /// Propiedad de lectura y escritura para la variable tipoDeMaterial
+        /// </summary>
+        public ETipoDeMaterial TipoDeMaterial
+        {
+            get => tipoDeMaterial;
+            set => tipoDeMaterial = value;
+        }
+
+        /// <summary>
+        /// Propiedad de lectura y escritura para la variable numeroDeSerie
+        /// </summary>
+        public string NumeroDeSerie
+        {
+            get => numeroDeSerie;
+            set => numeroDeSerie = value;
         }
 
         /// <summary>
@@ -49,7 +63,6 @@ namespace Entidades
             get => largo;
             set => largo = value;
         }
-
 
         /// <summary>
         /// Propiedad de lectura y escritura para la variable alto
@@ -70,23 +83,19 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Propiedad de lectura y escritura para la variable numeroDeSerie
+        /// Propiedad de lectura y escritura para la variable estaDefectuosa
         /// </summary>
-        public string NumeroDeSerie
+        public bool EstaDefectuoso
         {
-            get => numeroDeSerie;
-            set => numeroDeSerie = value;
+            get
+            {
+                return this.estaDefectuosa;
+            }
+            set
+            {
+                this.estaDefectuosa = value;
+            }
         }
-
-        /// <summary>
-        /// Propiedad de lectura y escritura para la variable tipoDeMaterial
-        /// </summary>
-        public ETipoDeMaterial TipoDeMaterial
-        {
-            get => tipoDeMaterial;
-            set => tipoDeMaterial = value;
-        }
-
         /// <summary>
         /// Metodo para generar un numero de serie, compuesto por letras y numeros.
         /// </summary>
@@ -111,16 +120,7 @@ namespace Entidades
         /// </summary>
         public AutoParte() { }
 
-        /// <summary>
-        /// Propiedad de lectura para obtener el nombre de la clase.
-        /// </summary>
-        public string Tipo
-        {
-            get
-            {
-                return this.GetType().Name;
-            }
-        }
+
 
         /// <summary>
         /// Constructor con parametros.
@@ -161,6 +161,9 @@ namespace Entidades
         {
             return this.AutoParteInfo();
         }
+
+
+
 
     }
 }
