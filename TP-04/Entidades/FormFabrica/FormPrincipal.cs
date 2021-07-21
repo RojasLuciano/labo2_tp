@@ -182,24 +182,13 @@ namespace FormFabrica
         }
 
         /// <summary>
-        /// Metodo load, realiza acciones sobre los datagrids.
+        /// Metodo load
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
 
-        }
-
-        /// <summary>
-        /// CREACION DE LISTA PARA PRUEBAS.
-        /// </summary>
-        private void CreacionAutomaticaDeMateriales()
-        {
-            Fabrica miFabrica = new Fabrica("Test");
-            miFabrica.Materiales.Add(new Material(ETipoDeMaterial.Acero, 500, 500, 5, 7850));
-            miFabrica.Materiales.Add(new Material(ETipoDeMaterial.Aluminio, 500, 500, 5, 7850));
-            Fabrica.Save(miFabrica, "datosDePrueba.xml");
         }
 
         /// <summary>
@@ -210,7 +199,6 @@ namespace FormFabrica
         {
             try
             {
-          
                 dgvListMaterials.Refresh();
                 dgvListMaterials.AutoResizeColumns();
                 dgvListMaterials.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
@@ -220,7 +208,6 @@ namespace FormFabrica
                 dgvListMaterials.AllowUserToResizeColumns = false;
                 dgvListMaterials.AllowUserToOrderColumns = false;
                 dgvListMaterials.RowHeadersVisible = false;
-
             }
             catch (Exception ex)
             {
@@ -235,7 +222,6 @@ namespace FormFabrica
         {
             try
             {
-          
                 dgvListPieces.Refresh();
                 dgvListPieces.AutoResizeColumns();
                 dgvListPieces.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
@@ -245,7 +231,6 @@ namespace FormFabrica
                 dgvListPieces.AllowUserToResizeColumns = false;
                 dgvListPieces.AllowUserToOrderColumns = false;
                 dgvListPieces.RowHeadersVisible = false;
-
             }
             catch (Exception ex)
             {
@@ -268,7 +253,7 @@ namespace FormFabrica
                     if (rta == DialogResult.OK)
                     {
                         OpenFileDialog openFileDialog = new OpenFileDialog();
-                        openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                        openFileDialog.InitialDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
                         if (openFileDialog.ShowDialog() == DialogResult.OK)
                         {
@@ -281,7 +266,7 @@ namespace FormFabrica
                 else
                 {
                     OpenFileDialog openFileDialog = new OpenFileDialog();
-                    openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                    openFileDialog.InitialDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
                     if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
@@ -312,7 +297,7 @@ namespace FormFabrica
             else
             {
                 SaveFileDialog saveFileDialog = new SaveFileDialog();
-                saveFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                saveFileDialog.InitialDirectory = AppDomain.CurrentDomain.BaseDirectory;
                 saveFileDialog.Filter = "Archivos XML|*.xml|Todos los archivos|*.*";
 
                 try
@@ -519,6 +504,8 @@ namespace FormFabrica
         {
             if (rta == DialogResult.OK)
             {
+                aux.EstaDefectuoso = true; // Hardcodeo para que pase el proceso de eliminacion.
+
                 if (fabrica - aux)
                 {
                     actualizarDatos.Invoke();
@@ -587,25 +574,36 @@ namespace FormFabrica
         {
             try
             {
-                using (FormPopUp pop2 = new FormPopUp("Seleccione que exportar", "Materiales", "AutoPartes"))
+                if (fabrica.Materiales.Count == 0 && fabrica.AutoPartes.Count == 0)
                 {
-                    pop2.ShowDialog();
+                    MessageBox.Show("No hay datos para exportar..", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    using (FormPopUp pop2 = new FormPopUp("Seleccione que exportar", "Materiales", "AutoPartes"))
+                    {
+                        pop2.ShowDialog();
 
-                    if (pop2.OptionSelected == "Materiales" && fabrica.Materiales.Count != 0)
+                        if (pop2.OptionSelected == "Materiales" && fabrica.Materiales.Count != 0)
                         {
                             if (fabrica.DropTableMateriales() && fabrica.CreateTableMateriales() && fabrica.ExportMaterialsToDB())
 
-                            MessageBox.Show("Se exportaron con exito los datos.", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        else
-                            throw new FileException("Hubo un error al exportar los datos.");
+                                MessageBox.Show("Se exportaron con exito los datos.", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            else
+                                throw new FileException("Hubo un error al exportar los datos.");
 
-                    }
-                    else if (pop2.OptionSelected == "AutoPartes" && fabrica.AutoPartes.Count != 0)
-                    {
-                        if (fabrica.DropTableAutoParts() && fabrica.CreateTableAutoParts() && fabrica.ExportAutoPartsToDB()) 
-                            MessageBox.Show("Se exportaron con exito los datos.", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        else
-                            throw new FileException("Hubo un error al exportar los datos.");
+                        }
+                        else if (pop2.OptionSelected == "AutoPartes" && fabrica.AutoPartes.Count != 0)
+                        {
+                            if (fabrica.DropTableAutoParts() && fabrica.CreateTableAutoParts() && fabrica.ExportAutoPartsToDB())
+                                MessageBox.Show("Se exportaron con exito los datos.", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            else
+                                throw new FileException("Hubo un error al exportar los datos.");
+                        }
+                        else 
+                        {
+                            MessageBox.Show("No hay datos para exportar.", "WARNING", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
                     }
                 }
             }

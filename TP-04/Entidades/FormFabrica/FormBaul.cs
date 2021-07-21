@@ -55,8 +55,16 @@ namespace FormFabrica
         /// <param name="e"></param>
         protected override void btn_Aceptar_Click(object sender, EventArgs e)
         {
-            this.baul = new Baul((ETipoDeMaterial)Enum.Parse(typeof(ETipoDeMaterial), cmbMateriales.Text), double.Parse(tbAltura.Text), double.Parse(tbLargo.Text), txbDescripcion.Text);
-            base.btn_Aceptar_Click(sender, e);
+
+            if (!String.IsNullOrWhiteSpace(tbAltura.Text) && !String.IsNullOrWhiteSpace(tbLargo.Text))
+            {
+                this.baul = new Baul((ETipoDeMaterial)Enum.Parse(typeof(ETipoDeMaterial), cmbMateriales.Text), double.Parse(tbAltura.Text), double.Parse(tbLargo.Text), txbDescripcion.Text);
+                base.btn_Aceptar_Click(sender, e);
+            }
+            else 
+            {
+                MessageBox.Show("Verifique los datos ingresados.", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
     }

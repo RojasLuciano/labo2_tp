@@ -20,7 +20,7 @@ namespace Entidades.Entidades.Files
             T data = default(T);
             try
             {
-                using (XmlTextReader tr = new XmlTextReader(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\"+file))
+                using (XmlTextReader tr = new XmlTextReader(file))
                 {
                     XmlSerializer ser = new XmlSerializer(typeof(T));
                     data = (T)ser.Deserialize(tr);
@@ -44,7 +44,7 @@ namespace Entidades.Entidades.Files
             bool output = false;
             try
             {
-                using (XmlTextWriter writer = new XmlTextWriter(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\" + file, Encoding.UTF8))
+                using (XmlTextWriter writer = new XmlTextWriter(file, Encoding.UTF8))
                 {
                     XmlSerializer ser = new XmlSerializer(typeof(T));
                     ser.Serialize(writer, data);

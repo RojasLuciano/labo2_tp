@@ -50,10 +50,10 @@ namespace Entidades.Entidades.Database
                                 switch (dataReader["tipoDeMaterial"].ToString())
                                 {
                                     case "Acero":
-                                        material = new Material { TipoDeMaterial = (ETipoDeMaterial)Enum.Parse(typeof(ETipoDeMaterial), dataReader["tipoDeMaterial"].ToString()), Largo = double.Parse(dataReader["largo"].ToString()), Ancho = double.Parse(dataReader["ancho"].ToString()), Alto = double.Parse(dataReader["ancho"].ToString()), Densidad = double.Parse(dataReader["densidad"].ToString()) };
+                                        material = new Material { TipoDeMaterial = (ETipoDeMaterial)Enum.Parse(typeof(ETipoDeMaterial), dataReader["tipoDeMaterial"].ToString()), Largo = double.Parse(dataReader["largo"].ToString()), Ancho = double.Parse(dataReader["ancho"].ToString()), Alto = double.Parse(dataReader["alto"].ToString()), Densidad = double.Parse(dataReader["densidad"].ToString()) };
                                         break;
                                     case "Aluminio":
-                                        material = new Material { TipoDeMaterial = (ETipoDeMaterial)Enum.Parse(typeof(ETipoDeMaterial), dataReader["tipoDeMaterial"].ToString()), Largo = double.Parse(dataReader["largo"].ToString()), Ancho = double.Parse(dataReader["ancho"].ToString()), Alto = double.Parse(dataReader["ancho"].ToString()), Densidad = double.Parse(dataReader["densidad"].ToString()) };
+                                        material = new Material { TipoDeMaterial = (ETipoDeMaterial)Enum.Parse(typeof(ETipoDeMaterial), dataReader["tipoDeMaterial"].ToString()), Largo = double.Parse(dataReader["largo"].ToString()), Ancho = double.Parse(dataReader["ancho"].ToString()), Alto = double.Parse(dataReader["alto"].ToString()), Densidad = double.Parse(dataReader["densidad"].ToString()) };
                                         break;
                                 }
                                 materials.Add(material);

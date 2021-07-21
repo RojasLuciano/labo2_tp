@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Fabrica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><AutoPartes><AutoParte xsi:type="Puerta"><TipoDeMaterial>Acero</TipoDeMaterial><NumeroDeSerie>HGTU280304</NumeroDeSerie><Largo>90</Largo><Alto>120</Alto><Peso>339.12</Peso><EstaDefectuoso>false</EstaDefectuoso><ladoPuerta>Delantero izquierdo
+</ladoPuerta><LadoPuerta>Delantero izquierdo
+</LadoPuerta></AutoParte><AutoParte xsi:type="Chasis"><TipoDeMaterial>Aluminio</TipoDeMaterial><NumeroDeSerie>UVDB185673</NumeroDeSerie><Largo>50</Largo><Alto>40</Alto><Peso>21.6</Peso><EstaDefectuoso>false</EstaDefectuoso><TipoDeChasis>compacto</TipoDeChasis></AutoParte></AutoPartes>
+<Materiales>
+
+<Material>
+
+<TipoDeMaterial>Acero</TipoDeMaterial><Largo>4100</Largo><Ancho>4</Ancho><Alto>4000</Alto><Densidad>7850</Densidad>
+</Material><Material>
+<TipoDeMaterial>Aluminio</TipoDeMaterial><Largo>4500</Largo><Ancho>4</Ancho><Alto>4000</Alto><Densidad>2700</Densidad>
+</Material>
+</Materiales>
+<NombreFabrica>Mi fábrica</NombreFabrica></Fabrica>

@@ -14,11 +14,6 @@ namespace FormFabrica
 
     public partial class FormPopUp : Form
     {
-        FormPrincipal f;
-
-        private string buttonText1;
-        private string buttonText2;
-        private string labelText;
 
         public FormPopUp(string lbl,string btnText1, string btnText2)
         {
