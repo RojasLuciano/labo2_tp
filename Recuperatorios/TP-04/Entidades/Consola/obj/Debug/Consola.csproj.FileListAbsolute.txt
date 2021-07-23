@@ -1,0 +1,78 @@
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Consola.exe.config
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Consola.exe
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Consola.pdb
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Entidades.dll
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\itextsharp.dll
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\Entidades.pdb
+C:\Users\Felipe\source\repos\Entidades\Consola\bin\Debug\itextsharp.xml
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.exe
+C:\Users\Felipe\source\repos\Entidades\Consola\obj\Debug\Consola.pdb
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\bin\Debug\Consola.exe.config
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\bin\Debug\Consola.exe
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\bin\Debug\Consola.pdb
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\bin\Debug\Entidades.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\bin\Debug\itextsharp.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\bin\Debug\Entidades.pdb
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\bin\Debug\itextsharp.xml
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\obj\Debug\Consola.exe
+C:\Users\Felipe\Downloads\Entidades\Entidades\Consola\obj\Debug\Consola.pdb
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\bin\Debug\Consola.exe.config
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\bin\Debug\Consola.exe
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\bin\Debug\Consola.pdb
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\bin\Debug\Entidades.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\bin\Debug\itextsharp.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\bin\Debug\Entidades.pdb
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\bin\Debug\itextsharp.xml
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\obj\Debug\Consola.exe
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\Consola\obj\Debug\Consola.pdb
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\bin\Debug\Consola.exe.config
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\bin\Debug\Consola.exe
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\bin\Debug\Consola.pdb
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\bin\Debug\Entidades.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\bin\Debug\itextsharp.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\bin\Debug\Entidades.pdb
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\bin\Debug\itextsharp.xml
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\obj\Debug\Consola.exe
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\Consola\obj\Debug\Consola.pdb
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\bin\Debug\Consola.exe.config
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\bin\Debug\Consola.exe
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\bin\Debug\Consola.pdb
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\bin\Debug\Entidades.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\bin\Debug\itextsharp.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\bin\Debug\Entidades.pdb
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\bin\Debug\itextsharp.xml
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\obj\Debug\Consola.exe
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\Consola\obj\Debug\Consola.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\bin\Debug\Consola.exe.config
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\bin\Debug\Consola.exe
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\bin\Debug\Consola.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\bin\Debug\Entidades.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\bin\Debug\itextsharp.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\bin\Debug\Entidades.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\bin\Debug\itextsharp.xml
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\obj\Debug\Consola.csprojAssemblyReference.cache
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\obj\Debug\Consola.csproj.CoreCompileInputs.cache
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\obj\Debug\Consola.csproj.CopyComplete
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\obj\Debug\Consola.exe
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\Consola\obj\Debug\Consola.pdb

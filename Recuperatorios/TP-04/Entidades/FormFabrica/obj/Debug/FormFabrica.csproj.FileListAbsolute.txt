@@ -1,0 +1,299 @@
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\SplitButton.dll
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\ClassLibrary1.dll
+C:\Users\Felipe\source\repos\Entidades\FormFabrica\bin\Debug\ClassLibrary1.pdb
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPopUp.resources
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.dll
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.dll
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.xml
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.xml
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\NR_E90863\Downloads\Bomberos\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\NPOI.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\SplitButton.dll
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\NPOI.xml
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.xml
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPopUp.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormBaul.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCapot.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCarroceria.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormChasis.resources
+C:\Users\Felipe\Downloads\Entidades\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPanel.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.dll
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.dll
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.xml
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.xml
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormBaul.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCapot.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCarroceria.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormChasis.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPanel.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPopUp.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\NR_E90863\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\SplitButton.dll
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.xml
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.xml
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormBaul.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCapot.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCarroceria.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormChasis.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPanel.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPopUp.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\Felipe\Downloads\Entidades (1)\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\NPOI.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\SplitButton.dll
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\NPOI.xml
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.xml
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormBaul.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCapot.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCarroceria.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormChasis.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPanel.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPopUp.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\Felipe\Downloads\Entidades (3)\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.xml
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.xml
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormBaul.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCapot.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCarroceria.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormChasis.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPanel.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPopUp.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\Felipe\Desktop\Borrar\TP3 Luchito\tp_laboratorio_2\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\NPOI.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\NPOI.xml
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.xml
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormBaul.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCapot.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCarroceria.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormChasis.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPanel.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPopUp.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\NR_E90863\Downloads\Entidades (5)\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.exe.config
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.exe
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\FormFabrica.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\Entidades.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\itextsharp.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\Entidades.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\itextsharp.xml
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.xml
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OOXML.xml
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\bin\Debug\NPOI.OpenXml4Net.xml
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csprojAssemblyReference.cache
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormAutoParte.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormBaul.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCapot.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormCarroceria.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormChasis.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPanel.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPopUp.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPrincipal.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.FormPuerta.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.Properties.Resources.resources
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.GenerateResource.cache
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CoreCompileInputs.cache
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.csproj.CopyComplete
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.exe
+C:\Users\NR_E90863\Desktop\QA\Facultad\tp\Recuperatorios\TP-04\Entidades\FormFabrica\obj\Debug\FormFabrica.pdb
